@@ -30,6 +30,7 @@ function App() {
       setTodos(deleted)
     }
   }
+  
 
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos))
